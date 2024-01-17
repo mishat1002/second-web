@@ -218,6 +218,11 @@ color: black;
  .best-best{
   padding: 40px 40px;
 }
+.ours-our{
+    display: flex;
+    margin: 100px 200px 0px 200px;
+    gap: 100px;
+}
 .newsletter{
     border-radius: 16px;
     border: 1px #FF5400 solid ;
