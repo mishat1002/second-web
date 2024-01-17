@@ -124,7 +124,7 @@ color: black;
   margin-bottom: 20px;
 }
 .destination-container{
-    border: 2px solid white;
+            border: 2px solid white;
             width:80%;
             margin: 0 auto;
             padding: 5px;
@@ -139,7 +139,7 @@ color: black;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3,1fr); 
     height: 950px;  
-   margin-left: 30px;
+    margin-left: 30px;
 }
 
 .destination-img .box{
@@ -349,9 +349,10 @@ line-height: 40px;
         text-align: center;
     }
     .back-img{
-        position: absolute;
+        position: relative;
         width: 400px;
-        height: 650px;
+        height: 400px;
+        margin: 20px 20px;
     }
     nav{
         margin:0px;
@@ -362,51 +363,104 @@ line-height: 40px;
     }
     .our-our{
         flex-direction: column;
-        margin: 20px 20px;
+        margin: 150px 20px 20px 20px;
+        gap: 100px;
+        
+    }
+    .ours-our{
+        flex-direction:column-reverse;
+        margin: 150px 20px 20px 20px;
+        gap: 100px; 
+    }
+    .headline{
+
+       text-align: center;
+    }
+    .our-img{
+        width: 50%;
+        height: 50%;
+        margin-right: 900px;
     }
     .destination 
-    
     {
        
         flex-direction: column;
     }
-   nav > ul{
+    nav > ul{
     
-    margin-left: 0px;
-    margin-top: 10px;
+        margin-left: -50px;
+        margin-top: 10px;
+    }
+    .explore{
+        flex-direction: column;
     } 
     .three{
         flex-direction: column;
         padding: 0px;
-        margin: 20px 20px;
+        margin: 0px;
     }
     .best{
        
         margin: 20px 20px;  
         
     } 
-    .destination-container{
-        
-       
-        padding: 0px;
-        flex-direction: column;
-        
-        
-        margin: 20px 50px;
+  
+    .choose{
+        margin-top: 300px;
     }
     .destination-img{
+        width: 900px;
+        height: 900px;
+        margin: 0px;
+    }
+     .destination-container{
 
+        margin: 20px 50px;
+        padding: 0px;
+     }
+    .destination-img  .box1{
+
+         grid-column: 1/ span 12;
+         width: 355px;
+         height: 176px;
         
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
-        gap: 10px;
-        grid-template-areas: "Maldives"
-        "Indonesia"
-        "Srilanka""
-        "North America"
-        "Kashmir"
-        "Bangladesh"
-        "banderban";
+    }
+    .destination-img  .box2{
+
+         grid-column: 7/ span 12;
+         width: 355px;
+         height: 176px; 
+        
+    }
+    .destination-img  .box3{
+
+         grid-column: 1/ span 12;
+         width: 355px;
+         height: 176px;
+    }
+    .destination-img  .box4{
+
+         grid-column: 5/ span 12;
+         width: 355px;
+         height: 176px;
+    }
+    .destination-img  .box5{
+
+         grid-column: 10/ span 12;
+         width: 355px;
+         height: 176px;
+    }
+    .destination-img  .box6{
+
+         grid-column: 1/ span 12;
+         width: 355px;
+         height: 176px;
+    }
+    .destination-img  .box7{
+
+         grid-column: 6/ span 12;
+         width: 355px;
+         height: 176px;
     }
    
 }
