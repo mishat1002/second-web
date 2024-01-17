@@ -13,8 +13,8 @@ nav{
 }
 nav h1{
 
-    
-    margin-right: 390px;
+    margin-top: 20px;
+    margin-right: 400px;
     color: #131318;
     font-size: 36px;
     font-weight: 800;
@@ -65,9 +65,7 @@ nav a{
 }
 .our-our{
     display: flex;
-    margin-top: 100px;
-    margin-left: 120px;
-    margin-right: 200px;
+    margin: 100px 200px 0px 200px;
     gap: 100px;
 }
 .our-img  img {
@@ -87,7 +85,7 @@ nav a{
      margin-top: 40px;
 
 }
-.our-hradline{
+.our-headline{
     font-size: 40px;
 }
 .headline p{
@@ -190,7 +188,103 @@ nav a{
 } 
  .best-best{
   padding: 40px 40px;
-} 
+}
+.newsletter{
+    border-radius: 16px;
+    border: 1px #FF5400 solid ;
+    margin-bottom: 200px;
+     padding: 20px 40px 0px 40px;
+
+}
+.news-form{
+   margin-top: 20px;
+   /* width: 100%; */
+}
+.newsletter h1{
+    margin-bottom: 20px;
+}
+.newsletter p{
+    margin-bottom: 20px;
+}
+.news-form input
+{
+   
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+
+}
+.news-form input[type="text"]
+{
+    width: 340px;
+    height: 50px;
+    border: none;
+    padding: 0px 25px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.news-form input[type="email"]
+{
+    width: 340px;
+    height: 50px;
+    border: none;
+    padding: 0px 25px;
+    border-radius: 25px 0px 0px 25px;
+    margin-top: 20px;
+}
+.btn-btn-primary{
+     width: 100%; 
+    
+    background: #FF5400;
+     border-radius: 8px;
+     margin-top: 40px;
+     padding: 20px 20px 20px 20px;
+     color: white;
+     font-size: 20px;
+     font-weight: 800;
+   
+}
+.ten-years{
+    color: white;
+   background:#FF5400 ; 
+   border-radius: 8px;
+   width: 342px;
+   padding: 40px;
+   
+   text-align: center;
+   position: relative;
+   bottom: 190px;
+   rotate: -45deg;
+   scale: .5;
+   
+}
+.ten-years h2{
+    font-size: 4rem;
+    margin: 0px;
+}
+.ten-years p{
+    font-size: 25px;
+
+font-weight: 500;
+line-height: 40px;
+
+}
+/* .container{
+    width: 90%;
+    padding: 20px;
+    margin: 100% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box-box{
+    width: 250px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px 2px  rgba(0, 0 , 0, .1);
+
+}  */
 .last{
     background-color:rgba(19, 19, 24, 0.05);
     height: 500px;
@@ -199,9 +293,7 @@ nav a{
 .last-title{
      display: flex; 
      justify-content: center;
-    margin: 0px; 
-    
-    margin-top: 300px; 
+    margin-top: 30px; 
     padding-top: 30px;
     text-align: center;
 
@@ -226,15 +318,7 @@ nav a{
 .img1  , .img2 , .img3 , .img4{
    width: 30px;
 }
-/* .img2{
-   width: 30px;
-}
-.img3{
-   width: 30px;
-}
-.img4{
-   width: 30px;
-} */
+
 
 .choose-headline{
    
