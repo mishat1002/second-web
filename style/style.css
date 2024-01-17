@@ -5,42 +5,56 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-
-nav{
+.tour-title{
+      
     display: flex; 
-    justify-content: space-between;
-    margin: 0px 200px 0px 120px;
+ justify-content:start;
+margin-top: 30px; 
+padding-top: 30px;
+margin-left: 90px;
+
+text-align: center;
+}
+header nav{
+display: flex; 
+justify-content: space-between;
+margin: 0px 200px 0px 120px;
 }
 nav h1{
 
-    margin-top: 20px;
-    margin-right: 400px;
-    color: #131318;
-    font-size: 36px;
-    font-weight: 800;
+margin-top: 20px;
+margin-right: 400px;
+color: #131318;
+font-size: 36px;
+font-weight: 800;
 
 }
 nav img{
-    margin-top: 25px;
+margin-top: 25px;
 }
- .tt{
-    color: #FF5400;
+.tt{
+color: #FF5400;
 }
 nav >  ul
 {
-   display: flex;
-   align-items: center;
-}
-nav li
-{   
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
-    text-decoration: none;
-    color: black;
+display: flex;
+
+margin-left: 750px;
+margin-top: -60px;
 
 }
+nav li
+{  
+    display: inline-block; 
+list-style: none;
+margin-right: 50px;
+
+}
+nav a{
+text-decoration: none;
+color: black;
+}
+
 .back-img{
    
     background-image:linear-gradient(to bottom,rgba(0,0,0,0.5), rgba(0,0,0,0)),url('../Images/Group.png');
@@ -151,10 +165,7 @@ nav a{
     grid-column: 5/span 5;
 }
 .box5{
-    grid-column: 10/span 3;
-      
-
-    
+    grid-column: 10/span 3;   
 }
 .box6 {
     grid-column: 1/span 5;  
@@ -164,16 +175,14 @@ nav a{
    
 }
 
-
 .destination-img img{
     width: 100%;
     height: 100%;  
 }
 .destination-img h2{
     color: white;
-font-size: 28px;
-
-font-weight: 800;
+    font-size: 28px;
+    font-weight: 800;
 
 }
 
@@ -181,8 +190,8 @@ font-weight: 800;
     display: flex;
     justify-content: center;
     
-    margin: 50px 170px 50px 170px;
-    gap: 20px; 
+     margin: 50px 170px 50px 170px;
+     gap: 20px;  
 }
 .handpicked-hostel{
     border: 1px solid white;
@@ -190,10 +199,7 @@ font-weight: 800;
     border-radius: 2px;
     padding: 20px 20px;
 }
-/* .handpicked-des{
-    padding: 174px 54px 34px 34px;
-   
-} */
+
 .world-class{
     border: 1px solid white;
     background-color:rgba(41, 206, 246, 0.05);
@@ -216,7 +222,7 @@ font-weight: 800;
     border-radius: 16px;
     border: 1px #FF5400 solid ;
     margin-bottom: 200px;
-     padding: 20px 40px 0px 40px;
+    padding: 20px 40px 0px 40px;
 
 }
 .news-form{
@@ -236,7 +242,6 @@ font-weight: 800;
     display: inline-block;
     font-size: 20px;
     box-sizing: border-box;
-    
 
 }
 .news-form input[type="text"]
@@ -259,8 +264,7 @@ font-weight: 800;
 }
 .btn-btn-primary{
      width: 100%; 
-    
-    background: #FF5400;
+     background: #FF5400;
      border-radius: 8px;
      margin-top: 40px;
      padding: 20px 20px 20px 20px;
@@ -294,20 +298,7 @@ font-weight: 500;
 line-height: 40px;
 
 }
-/* .container{
-    width: 90%;
-    padding: 20px;
-    margin: 100% auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.box-box{
-    width: 250px;
-    margin: 0px 10px;
-    box-shadow: 0px 0px 20px 2px  rgba(0, 0 , 0, .1);
 
-}  */
 .last{
     background-color:rgba(19, 19, 24, 0.05);
     height: 500px;
@@ -318,6 +309,7 @@ line-height: 40px;
      justify-content: center;
     margin-top: 30px; 
     padding-top: 30px;
+ 
     text-align: center;
 
 }
@@ -350,6 +342,73 @@ line-height: 40px;
  text-align: center;
  font-weight: 800;
 
+}
+@media screen and (max-width:600px){
+    header{
+        padding: 40px;
+        text-align: center;
+    }
+    .back-img{
+        position: absolute;
+        width: 400px;
+        height: 650px;
+    }
+    nav{
+        margin:0px;
+        flex-direction: column;
+    }
+    nav img{
+        max-width: 500px;
+    }
+    .our-our{
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .destination 
+    
+    {
+       
+        flex-direction: column;
+    }
+   nav > ul{
+    
+    margin-left: 0px;
+    margin-top: 10px;
+    } 
+    .three{
+        flex-direction: column;
+        padding: 0px;
+        margin: 20px 20px;
+    }
+    .best{
+       
+        margin: 20px 20px;  
+        
+    } 
+    .destination-container{
+        
+       
+        padding: 0px;
+        flex-direction: column;
+        
+        
+        margin: 20px 50px;
+    }
+    .destination-img{
+
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+        gap: 10px;
+        grid-template-areas: "Maldives"
+        "Indonesia"
+        "Srilanka""
+        "North America"
+        "Kashmir"
+        "Bangladesh"
+        "banderban";
+    }
+   
 }
 
 
